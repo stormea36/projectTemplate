@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.quote-box {
+  width: 90%;
+  margin: 10px auto 5px;
+  position: relative; }
+
+.quote-author {
+  padding-left: 40px;
+  font-size: 1.4em;
+  line-height: 40px; }
+
+.quote-source {
+  font-weight: bold;
+  color: #326432;
+  text-decoration: none; }
+  .quote-source:hover {
+    color: #660066; }
+
+select {
+  margin: 5px 5px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 180px;
+  padding: 5px 15px 5px 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+@media screen and (min-width: 0\0) {
+  select {
+    background: none;
+    padding: 5px; } }
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 64px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  -moz-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  box-shadow: 0 3px 0 rgba(178, 76, 69, 0.9);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 18px 25px 18px 25px; }
+
+.call-us span {
+  font-size: 140%;
+  color: #444;
+  font-weight: bold; }
+
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  color: #53b053; }
+  a:hover {
+    color: #337ab7;
+    text-decoration: none; }
+
+/*# sourceMappingURL=main.css.map */

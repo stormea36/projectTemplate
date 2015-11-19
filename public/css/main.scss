@@ -1,0 +1,36 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import'vars';
+@import'landing';
+@import'widgets';
+
+
+body {
+  padding-top:50px;
+  font-family: 'Roboto', sans-serif;
+
+}
+a {
+  color:$linkColor;
+  &:hover {
+    color:#337ab7;
+    text-decoration: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

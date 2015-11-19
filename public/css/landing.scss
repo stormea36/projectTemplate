@@ -1,0 +1,54 @@
+
+
+//
+//
+//
+//Quote Section
+//
+//
+//
+
+.quote-box {
+  width:90%;
+  margin:10px auto 5px;
+  position:relative;
+}
+.quote-text {
+  //&:before {
+  //  content:url('/img/leaf-icon.png');
+  //  width:60px;
+  //  height:60px;
+  //  position: absolute;
+  //  left:-40px;
+  //  top:-10px;
+  //}
+  //&:after {
+  //  content:url('/img/leaf-icon.png');
+  //  width:40px;
+  //  height:40px;
+  //  position: absolute;
+  //  right:-40px;
+  //}
+}
+.quote-author {
+padding-left:40px;
+  font-size:1.4em;
+  line-height:40px;
+  //&:before {
+  //  content:url('/img/leaf-icon.png');
+  //  width:40px;
+  //  height:40px;
+  //  position: absolute;
+  //  left:0px;
+  //}
+}
+.quote-source {
+  font-weight:bold;
+  color: #326432;
+  text-decoration: none;
+  &:hover {
+    color:#660066;
+  }
+}
+
+

@@ -1,0 +1,141 @@
+{
+  "indica": [
+    {
+      "ID": "11",
+      "name": "Grape Ape",
+      "description": "Indica dominent hybrid. Named for its distinct Grape smell. Mendo Purps X Afghani X Skunk. Grown by Hail Mary Productions.",
+      "active": "true",
+      "image": "/img/product/grape-ape.jpg",
+      "type": "indica",
+      "prices": {
+        "gram": "18",
+        "eighth": "55",
+        "quarter": "100",
+        "half": "180",
+        "oz": "320"
+      }
+    },
+    {
+      "ID": "12",
+      "name": "Woody Kush",
+      "image": "",
+      "description": "Organically grown Indica dominant hybrid. Master Kush X Hindu Kush X OG Kush.",
+      "active": "false",
+      "type": "indica",
+      "prices": {
+        "gram": "15",
+        "eighth": "45",
+        "quarter": "80",
+        "half": "150",
+        "oz": "250"
+      }
+    }
+  ],
+  "sativa": [
+    {
+      "ID": "21",
+      "name": "Jack Flash",
+      "description": "Jack Herer X Haze X Super Skunk. Sativa dominant hybrid. Organically grown. Strong citrus and earth aroma.",
+      "active": "true",
+      "type": "sativa",
+      "image": "/img/product/jack-flash.jpg",
+      "prices": {
+        "gram": "18",
+        "eighth": "50",
+        "quarter": "90",
+        "half": "170",
+        "oz": "290"
+      }
+    },
+    {
+      "ID": "22",
+      "name": "XJ-13",
+      "description": "Sativa dominant. Organic greenhouse. Jack Herer X G13",
+      "active": "false",
+      "image": "",
+      "prices": {
+        "gram": "15",
+        "eighth": "40",
+        "quarter": "70",
+        "half": "140",
+        "oz": "240"
+      }
+    },
+    {
+      "ID": "23",
+      "name": "Tangie",
+      "description": "",
+      "active": "true",
+      "image": "/img/product/tangie.jpg",
+      "prices": {
+        "gram": "12",
+        "eighth": "35",
+        "quarter": "60",
+        "half": "110",
+        "oz": "210"
+      }
+    },
+    {
+      "ID": "24",
+      "name": "Sour Tangie",
+      "description": "",
+      "active": "true",
+      "image": "/img/product/sour-tangie.jpg",
+      "prices": {
+        "gram": "12",
+        "eighth": "35",
+        "quarter": "60",
+        "half": "110",
+        "oz": "210"
+      }
+    }
+  ],
+  "hybrid": [
+    {
+      "ID": "31",
+      "name": "Purple Girl Scout Cookies",
+      "description": "",
+      "active": "true",
+      "image": "/img/product/purple-girl-scout.jpg",
+      "prices": {
+        "gram": "15",
+        "eighth": "40",
+        "quarter": "70",
+        "half": "125",
+        "oz": "220"
+      }
+    },
+    {
+      "ID": "32",
+      "name": "Blueberry Haze",
+      "description": "",
+      "active": "true",
+      "image": "/img/product/blueberry-hazy.jpg",
+      "prices": {
+        "gram": "",
+        "eighth": "35",
+        "quarter": "50",
+        "half": "90",
+        "oz": "175"
+      }
+    }
+  ],
+  "edibles": [
+    {
+      "ID": "41",
+      "name": "Sloth Bar",
+      "description": "Medicated chocolate toffee Bar infused with 200mg of The Clear Concentrate.",
+      "active": "true",
+      "image": "/img/product/sloth-bar.jpg",
+      "price": "20"
+    },
+    {
+      "ID": "42",
+      "name": "Solvent-Free capsules 100mg",
+      "description": "comes in a pack of 2. Made with MCT oil and solvent-free. Contains 100mg thc each",
+      "active": "true",
+      "image": "/img/product/solvent-free-capsules.jpg",
+      "prices": "10"
+    }
+  ]
+}
