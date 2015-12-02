@@ -14,6 +14,13 @@ class EditUsersTable extends Migration {
 	{
 		Schema::table('users', function(Blueprint $table)
 		{
+
+
+			$table->tinyInteger('userType')->default(0);
+			$table->string('city')->nullable();
+			$table->string('state')->nullable();
+			$table->boolean('admin')->default(0);
+			$table->string('phone')->nullable();
 			$table->rememberToken();
 		});
 	}
@@ -27,8 +34,13 @@ class EditUsersTable extends Migration {
 	{
 		Schema::table('users', function(Blueprint $table)
 		{
-			//
+			$table->dropColumn('registered');
+			$table->dropColumn('phone');
+			$table->dropColumn('city');
+			$table->dropColumn('state');
+			$table->dropColumn('admin');
 		});
 	}
 
 }
+
