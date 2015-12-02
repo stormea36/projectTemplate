@@ -1,0 +1,33 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "foundation/_settings";
+@import "foundation";
+
+
+@import'vars';
+@import'landing';
+@import'widgets';
+
+body {
+  padding-top:50px;
+}
+
+footer {
+  width:100%;
+  padding-top:20px;
+  background-color:$jet;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,128 +1,155 @@
-<!doctype html>
-<html land="en" ng-app="productApp">
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SAC 710</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-    {{ HTML::script('/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js'); }}
+@extends('layout')
 
-            <!--load stylesheets-->
-    {{ HTML::style('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css'); }}
-    <!--
-    {{ HTML::style('/css/bootstrap-theme.min.css'); }}
-    -->
-    {{ HTML::style('/css/bootstrap.min.css'); }}
-    {{ HTML::style('/css/main.css'); }}
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
+@section('content')
+    <div class="row">
+        <div class="large-12 columns">
 
-</head>
-<body>
 
-    <nav class="navbar navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><h3>DCCX</h3></a>
+
+            <div class="row">
+                <div class="large-12 hide-for-small">
+
+                    <div id="featured" data-orbit>
+                        <img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">
+                        <img src="http://placehold.it/1200x500&text=Slide Image 2" alt="slide image">
+                        <img src="http://placehold.it/1200x500&text=Slide Image 3" alt="slide image">
+                    </div>
+
+                </div>
             </div>
 
-            <div id="navbar" class="navbar-collapse collapse">
-                {{--<div class="navbar-left navbar-form">--}}
-                    {{--<div class="form-group">--}}
-                        {{--<h4><spanFirst Time? Get a FREE G &nbsp;</span> <SMALL class="call-us"> Call Us: <span>(916) 420-3311</span></SMALL></h4>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                <ul class="navbar-right navbar-nav nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Our Products</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Admin <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Add Product</a></li>
-                            <li><a href="#">Membership</a></li>
-                            <li><a href="#">Edit Information</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                {{--<form class="navbar-form navbar-right" role="form">--}}
-                    {{--<div class="form-group">--}}
-                        {{--<h4>Get deals delivered: </h4>--}}
-                    {{--</div>--}}
-                    {{--<div class="form-group">--}}
-                        {{--<input type="text" placeholder="Email" class="form-control">--}}
-                    {{--</div>--}}
-                    {{--<button type="submit" class="btn btn-primary">Join</button>--}}
-                {{--</form>--}}
-            </div><!--/.navbar-collapse -->
+            
+            <div class="row">
+                <div class="large-12 columns show-for-small">
+
+                    <img src="http://placehold.it/1200x700&text=Mobile Header">
+
+                </div>
+            </div><br>
+
+
+            <div class="row">
+                <div class="large-12 columns">
+                    <div class="row">
+
+                        <div class="large-4 small-6 columns">
+
+                            <h4>Upcoming Shows</h4><hr>
+
+                            <div class="row">
+                                <div class="large-1 column">
+                                    <img src="http://placehold.it/50x50&text=[img]">
+                                </div>
+
+                                <div class="large-9 columns">
+                                    <h5><a href="#">Venue Name</a></h5>
+                                    <h6 class="subheader show-for-small">Doors at 00:00pm</h6>
+                                </div>
+                            </div><hr>
+
+                            <div class="hide-for-small">
+                                <div class="row">
+                                    <div class="large-1 column">
+                                        <img src="http://placehold.it/50x50&text=[img]">
+                                    </div>
+
+                                    <div class="large-9 columns">
+                                        <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                    </div>
+                                </div><hr>
+
+                                <div class="row">
+                                    <div class="large-1 column">
+                                        <img src="http://placehold.it/50x50&text=[img]">
+                                    </div>
+
+                                    <div class="large-9 columns">
+                                        <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                    </div>
+                                </div><hr>
+
+                                <div class="row">
+                                    <div class="large-1 column">
+                                        <img src="http://placehold.it/50x50&text=[img]">
+                                    </div>
+
+                                    <div class="large-9 columns">
+                                        <h5 class="subheader"><a href="#">Venue Name</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="large-4 small-6 columns">
+                            <img src="http://placehold.it/300x465&text=Image">
+                        </div>
+
+
+
+
+
+
+                        <div class="large-4 small-12 columns">
+
+                            <h4>Blog</h4><hr>
+                            <div class="panel">
+                                <h5><a href="#">Post Title 1</a></h5>
+
+                                <h6 class="subheader">
+                                    Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
+                                </h6>
+
+                                <h6><a href="#">Read More »</a></h6>
+                            </div>
+
+                            <div class="panel hide-for-small">
+                                <h5><a href="#">Post Title 2 »</a></h5>
+                            </div>
+
+                            <div class="panel hide-for-small">
+                                <h5><a href="#">Post Title 3 »</a></h5>
+                            </div>
+
+                            <a href="#" class="right">Go To Blog »</a>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <footer class="row">
+                <div class="large-12 columns"><hr>
+                    <div class="row">
+
+                        <div class="large-6 columns">
+                            <p>© Copyright no one at all. Go to town.</p>
+                        </div>
+
+                        <div class="large-6 small-12 columns">
+                            <ul class="inline-list right">
+                                <li><a href="#">Link 1</a></li>
+                                <li><a href="#">Link 2</a></li>
+                                <li><a href="#">Link 3</a></li>
+                                <li><a href="#">Link 4</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </footer>
+
+
+
         </div>
-        <div class="greenHRow"></div>
-    </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-        <div class="container">
-
-
-
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-
-        </div>
-
-    </div>
-
-    <hr>
-
-    <div class="container-fluid">
-
-    </div>
-
-    <div class="container">
-        <!-- Example row of columns -->
-
-        <div class="row">
-            <h3 class="text-center">Learn more about <a href="#">Our Story</a></h3>
-        </div>
     </div>
 
 
-    <div class="container">
-        <footer>
-            <p>&copy; Company 2015</p>
-        </footer>
-    </div>
-    {{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js'); }}
-    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
-    {{ HTML::script('//ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js'); }}
-    {{ HTML::script('/js/vendor/bootstrap.min.js'); }}
-    {{ HTML::script('/js/main.js'); }}
-
-            <!--load scripts-->
-    {{--{{ HTML::script('') }}--}}
-
-</body>
-</html>
+@stop

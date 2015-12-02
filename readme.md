@@ -8,6 +8,7 @@ JS:
 modernizr - 2.8.3 CDN
 jquery - 1.11.2 - CDN
 angular.min.js - 1.4.5 - CDN
+foundation - CDN
 bootstrap.min.js Local
 
 Styles:
@@ -21,3 +22,4 @@ bootstrap.min.css - 3.3.0 Local
 bootstrap-theme.min.css - 3.3.0 Local
 
 This is a process so let's continue to work on it and build it up, I like working on the laravel stack and may start a 5 version as well once I get back up to speed with laravel. Really, this is just for me to use to get shit done quicker, but if other's like it (or even see it), go for it
+# safaribeachtan

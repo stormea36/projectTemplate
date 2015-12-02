@@ -1,0 +1,119 @@
+.whiteText {
+  color:white;
+}
+.greyText {
+  color: #dedede;
+}
+.blackText {
+  color:#242424;
+}
+
+.leftBorder {
+  border-left:3px solid #F7C138;
+}
+
+//custom select stylings
+select {
+  margin: 5px 5px;
+  border: 1px solid #111;
+  background: transparent;
+  width: 180px;
+  padding: 5px 15px 5px 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width: 0\0) {
+  select {
+    background: none;
+    padding: 5px;
+  }
+}
+
+
+//setting different background images for those selectors
+//.typeSelect {
+//  background: url('/img/leaf-icon-large.png') 96% / 15% no-repeat #eee;
+//}
+//.qtySelect {
+//  background: url('/img/weed-jar.png') 96% / 15% no-repeat #eee;
+//}
+
+//button stylings
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 20px 64px;
+  margin: 0px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: normal;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(23, 36, 45, 0.9);
+  -moz-box-shadow: 0 1px 0 rgba(23,36,45,0.9);
+  box-shadow: 0 3px 0 rgba(178, 76, 69, 0.9);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  padding: 18px 25px 18px 25px;
+}
+
+.call-us {
+  span {
+    font-size:140%;
+    color: #444;
+    font-weight:bold;
+  }
+}
+.focused-bg {
+  background-image:url('');
+  background-size:cover;
+  background-position:bottom right;
+}
+
+.focus-box {
+  margin-top:25%;
+  text-align:center;
+  background-color:rgba(216,216,216,.75);
+
+}
+
+
+.wordWrap {
+  white-space: normal!important;
+}
+
+.colorBar {
+  width:100%;
+  margin:0;
+  padding:0;
+  height:8px;
+}
+.goldDiagonal {
+  background: rgb(252,234,187);
+  background: -moz-linear-gradient(-45deg,  rgba(252,234,187,1) 0%, rgba(252,205,77,1) 50%, rgb(247, 193, 56) 51%, rgba(251,223,147,1) 100%);
+  background: -webkit-linear-gradient(-45deg,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(247,193,56,1) 51%,rgba(251,223,147,1) 100%);
+  background: linear-gradient(135deg,  rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(247,193,56,1) 51%,rgba(251,223,147,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=1 );
+
+}
+.greyDiagonal {
+  background: rgb(226,226,226);
+  background: -moz-linear-gradient(-45deg,  rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  background: -webkit-linear-gradient(-45deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+  background: linear-gradient(135deg,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 );
+}
+
+.blackFill {
+  background-color:rgb(20,20,20);
+}
